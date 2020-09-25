@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-image: url(./lg_g3_ink-wallpaper-1920x1080.jpg);">
+    <dialog>
+        <h1 class="mainHeader">More Deals For You! </h1>
+        <h3 class="secondHeader">More Discounts For Your Flight</h3>
+       
+                <div class="card column">
+                    <div>
+                        <div class="flat">Flat</div>
+                        <div>
+                            <span class="amount">Rs.500 </span> <span class="off"> Off</span>
+                        </div>
+                        <br/>
+                        <div class="couponCode">MMTFLAT500</div>
+                        <div class="timing">*Valid On Min 3 Tickets Booking</div>
+                        
+                        <div class="align-button"><button id="button1" class="copyButton" onclick="copyToClipboard('MMTFLAT500', 'button1')">COPY CODE</button></div>
+                    </div>
+                   
+                  </div>
+                  <div class="card column">
+                    <div class="flat">Flat</div>
+                    <div>
+                    <span class="amount">Rs.300 </span> <span class="off"> Off</span></div>
+                    <br>
+                    <div class="couponCode">FLYMMT300</div>
+                    <div class="timing">*Valid On Min 2 Tickets Booking</div>
+                    <div class="align-button"><button id="button2" class="copyButton" onclick="copyToClipboard('FLYMMT300', 'button2')">COPY CODE</button></div>
+                  </div>
+                  <div class="card column">
+                    <div class="flat">Flat</div>
+                    <div>
+                    <span class="amount">Rs.150 </span> <span class="off"> Off</span></div>
+                    <br>
+                    <div class="couponCode">FLYMMT150</div>
+                    <div class="timing">*Valid On Min 1 Tickets Booking</div>
+                    <div class="align-button"><button id="button3"  class="copyButton" onclick="copyToClipboard('FLYMMT150', 'button3')">COPY CODE</button></div>
+                  </div>
+                  <div class="card column">
+                    <div class="flat">UPTO</div>
+                    <div>
+                    <span class="amount">Rs.2500 </span> <span class="off"> Off</span></div>
+                    <br>
+                    <div class="couponCode" style="padding-bottom: 16px;">MMTBEST</div>
+                    <div class="align-button"><button id="button4" class="copyButton" onclick="copyToClipboard('MMTBEST', 'button4')">COPY CODE</button></div>
+                  </div>
+          </div>
+        <button id="close"> X </button>
+      </dialog>
+      <div class="open">
+      <button class="copyButton" id="show">GET OFFERS</button>
+      </div>
+      <div class="input">
+        <input class="textbox" type="text" id="offerCode" name="Offer Code" >
+      </div>
+
+
+      <script src="index.js"></script>
+    
+</body>
+</html>
